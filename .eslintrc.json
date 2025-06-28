@@ -1,0 +1,25 @@
+{
+  "extends": ["next/core-web-vitals", "plugin:import/recommended"],
+  "plugins": ["@typescript-eslint", "import"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "warn",
+    "import/no-unresolved": "off",
+    "import/named": "off",
+    "react-hooks/exhaustive-deps": "warn",
+    "import/order": [
+      "warn",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index"
+        ],
+        "alphabetize": { "order": "asc", "caseInsensitive": true },
+        "newlines-between": "always"
+      }
+    ]
+  }
+}
