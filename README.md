@@ -73,7 +73,7 @@ DATABASE_URL=postgresql://postgres:postgres@127.0.0.1:5432/postgres
 
 ```bash
 # Clone and install dependencies
-git clone https://github.com/your-org/next-better-stack.git
+git clone https://github.com/Chust3r/next-better-stack.git
 cd next-better-stack
 bun install
 
