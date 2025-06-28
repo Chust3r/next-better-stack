@@ -28,7 +28,7 @@ A full-stack starter template built with modern technologies:
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-user/next-better-stack.git
+git clone https://github.com/Chust3r/next-better-stack.git
 cd next-better-stack
 
 bun install
